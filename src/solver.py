@@ -28,13 +28,27 @@ class Model:
         """
         Only three of the selected pets can be of type "air"
         """
-        pass
+        self.solver.addConstr(
+            sum(
+                self.pets[pet_id]
+                for pet_id in self.data.keys()
+                if self.data[pet_id]["type"] == "Air"
+            )
+            <= 3
+        )
 
     def max_ground(self):
         """
         Only three of the selected pets can be of type "gound"
         """
-        pass
+        self.solver.addConstr(
+            sum(
+                self.pets[pet_id]
+                for pet_id in self.data.keys()
+                if self.data[pet_id]["type"] == "Ground"
+            )
+            <= 3
+        )
 
     def pet_restrictions(self):
         """
@@ -43,7 +57,7 @@ class Model:
         pass
 
     def construct_objective(self):
-        pass
+        self.solver.maximize(sum(self.pets[pet_id] for pet_id in self.data.keys()))
 
     def solve_model(self, relative_gap=0.007):
         self.solver.setOptionValue("min_rel_gap", relative_gap)
