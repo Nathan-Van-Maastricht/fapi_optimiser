@@ -50,7 +50,16 @@ class Model:
         self.solver.solve()
 
     def _solution_string(self):
-        pass
+        pet_assignments = []
+        for pet_id in self.data.keys():
+            pet_assignments.append(
+                [
+                    pet_id,
+                    str(int(self.solver.variableValue(self.pets[pet_id]))),
+                ]
+            )
+
+        return "\n".join([":".join(assignment) for assignment in pet_assignments])
 
     def print_solution(self):
         print(self._solution_string())
@@ -59,11 +68,16 @@ class Model:
         with open(filename, "w") as file:
             file.write(self._solution_string())
 
+    def get_objective_value(self):
+        return self.solver.getInfo().objective_function_value
+
 
 if __name__ == "__main__":
     with open("data/processed_data.json") as input_data:
         data = json.load(input_data)
 
-    model = Model(data, True)
+    model = Model(data, False)
     model.build_model()
     model.solve_model()
+    model.print_solution()
+    print(f"Objective value: {model.get_objective_value()}")
