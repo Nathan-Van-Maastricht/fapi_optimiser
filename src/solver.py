@@ -82,12 +82,19 @@ class Model:
             [f"{pet_id}: {self.pet_data[pet_id]['name']}" for pet_id in pet_assignments]
         )
 
-        bonuses_used = self.get_bonuses_used()
+        bonuses_used = ["Used:"]
+        bonuses_used.extend(self.get_bonuses_used())
         bonus_string = "\n".join(bonuses_used)
 
-        total_bonus_string = f"Number of bonuses: {len(bonuses_used)}"
+        total_bonus_string = f"Number of bonuses: {len(bonuses_used) - 1}"
 
-        return "\n\n".join([pet_string, bonus_string, total_bonus_string])
+        missing_bonuses = ["Not Used:"]
+        missing_bonuses.extend(self.get_bonuses_not_used())
+        missing_bonuses_string = "\n".join(missing_bonuses)
+
+        return "\n\n".join(
+            [pet_string, bonus_string, missing_bonuses_string, total_bonus_string]
+        )
 
     def get_pet_id_used(self):
         pet_assignments = []
@@ -109,6 +116,12 @@ class Model:
             bonuses.update(self.pet_data[pet_id]["bonuses"])
 
         return sorted(list(bonuses))
+
+    def get_bonuses_not_used(self):
+        all_bonuses = set(self.bonus_data)
+        used_bonuses = self.get_bonuses_used()
+
+        return sorted(list(all_bonuses.difference(used_bonuses)))
 
     def print_solution(self):
         print(self._solution_string())
