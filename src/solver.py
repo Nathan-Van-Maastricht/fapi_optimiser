@@ -4,9 +4,10 @@ import highspy
 
 
 class Model:
-    def __init__(self, data, output_flag=False):
+    def __init__(self, pet_data, bonus_data, output_flag=False):
         self.solver = highspy.Highs()
-        self.data = data
+        self.pet_data = pet_data
+        self.bonus_data = bonus_data
 
         self.solver.setOptionValue("output_flag", output_flag)
         self.solver.setOptionValue("log_to_console", output_flag)
@@ -17,12 +18,14 @@ class Model:
         self.construct_objective()
 
     def define_variables(self):
-        self.pets = {pet_id: self.solver.addBinary() for pet_id in self.data.keys()}
+        self.pets = {pet_id: self.solver.addBinary() for pet_id in self.pet_data.keys()}
+
+        self.bonuses = {bonus: self.solver.addBinary() for bonus in self.bonus_data}
 
     def construct_constraints(self):
         self.max_air()
         self.max_ground()
-        self.pet_restrictions()
+        self.pet_bonuses()
 
     def max_air(self):
         """
@@ -31,8 +34,8 @@ class Model:
         self.solver.addConstr(
             sum(
                 self.pets[pet_id]
-                for pet_id in self.data.keys()
-                if self.data[pet_id]["type"] == "Air"
+                for pet_id in self.pet_data.keys()
+                if self.pet_data[pet_id]["type"] == "Air"
             )
             <= 3
         )
@@ -44,20 +47,29 @@ class Model:
         self.solver.addConstr(
             sum(
                 self.pets[pet_id]
-                for pet_id in self.data.keys()
-                if self.data[pet_id]["type"] == "Ground"
+                for pet_id in self.pet_data.keys()
+                if self.pet_data[pet_id]["type"] == "Ground"
             )
             <= 3
         )
 
-    def pet_restrictions(self):
-        """
-        If access to some pets has not been aquired yet, we can't use them
-        """
-        pass
+    def pet_bonuses(self):
+        for pet_id in self.pet_data.keys():
+            for bonus in self.pet_data[pet_id]["bonuses"]:
+                self.solver.addConstr(self.pets[pet_id] <= self.bonuses[bonus])
+
+        for bonus in self.bonus_data:
+            self.solver.addConstr(
+                self.bonuses[bonus]
+                <= sum(
+                    self.pets[pet_id]
+                    for pet_id in self.pet_data.keys()
+                    if bonus in self.pet_data[pet_id]["bonuses"]
+                )
+            )
 
     def construct_objective(self):
-        self.solver.maximize(sum(self.pets[pet_id] for pet_id in self.data.keys()))
+        self.solver.maximize(sum(self.bonuses.values()))
 
     def solve_model(self, relative_gap=0.007):
         self.solver.setOptionValue("min_rel_gap", relative_gap)
@@ -65,15 +77,13 @@ class Model:
 
     def _solution_string(self):
         pet_assignments = []
-        for pet_id in self.data.keys():
-            pet_assignments.append(
-                [
-                    pet_id,
-                    str(int(self.solver.variableValue(self.pets[pet_id]))),
-                ]
-            )
+        for pet_id in self.pet_data.keys():
+            value = int(self.solver.variableValue(self.pets[pet_id]))
 
-        return "\n".join([":".join(assignment) for assignment in pet_assignments])
+            if value:
+                pet_assignments.append([pet_id, self.pet_data[pet_id]["name"]])
+
+        return "\n".join([": ".join(assignment) for assignment in pet_assignments])
 
     def print_solution(self):
         print(self._solution_string())
@@ -87,10 +97,13 @@ class Model:
 
 
 if __name__ == "__main__":
-    with open("data/processed_data.json") as input_data:
-        data = json.load(input_data)
+    with open("data/user_data.json") as input_data:
+        pet_data = json.load(input_data)
 
-    model = Model(data, False)
+    with open("data/all_bonuses.json") as input_data:
+        bonus_data = json.load(input_data)
+
+    model = Model(pet_data, bonus_data, False)
     model.build_model()
     model.solve_model()
     model.print_solution()

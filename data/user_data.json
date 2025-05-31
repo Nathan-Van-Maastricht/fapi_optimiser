@@ -1,0 +1,1010 @@
+{
+  "1": {
+    "bonuses": [
+      "Potatoes Earned"
+    ],
+    "name": "Cocorico",
+    "type": "Ground"
+  },
+  "2": {
+    "bonuses": [
+      "Class Exp Earned"
+    ],
+    "name": "Rico",
+    "type": "Air"
+  },
+  "3": {
+    "bonuses": [
+      "Skulls Earned"
+    ],
+    "name": "Trevor",
+    "type": "Ground"
+  },
+  "4": {
+    "bonuses": [
+      "Confection Exp Earned"
+    ],
+    "name": "Bingo",
+    "type": "Air"
+  },
+  "5": {
+    "bonuses": [
+      "Healthy Potato",
+      "Reincarnation Exp Earned"
+    ],
+    "name": "Primfeet",
+    "type": "Ground"
+  },
+  "6": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Item Rating Bonus"
+    ],
+    "name": "Nidhogg",
+    "type": "Air"
+  },
+  "7": {
+    "bonuses": [
+      "Poop Created",
+      "Potatoes Earned"
+    ],
+    "name": "Vidar",
+    "type": "Ground"
+  },
+  "8": {
+    "bonuses": [
+      "Milk Created",
+      "Skulls Earned"
+    ],
+    "name": "Hiko",
+    "type": "Air"
+  },
+  "9": {
+    "bonuses": [
+      "Whack Score Bonus",
+      "Confection Exp Earned"
+    ],
+    "name": "Murphy",
+    "type": "Ground"
+  },
+  "10": {
+    "bonuses": [
+      "Residue Created",
+      "Poop Created"
+    ],
+    "name": "Aphrodite",
+    "type": "Air"
+  },
+  "11": {
+    "bonuses": [
+      "Calcium Earned",
+      "Item Rating Bonus"
+    ],
+    "name": "Nuts",
+    "type": "Ground"
+  },
+  "12": {
+    "bonuses": [
+      "Poop Created",
+      "Milk Created"
+    ],
+    "name": "Alvin",
+    "type": "Air"
+  },
+  "13": {
+    "bonuses": [
+      "Brewing Exp Earned",
+      "Class Exp Earned"
+    ],
+    "name": "Flash",
+    "type": "Ground"
+  },
+  "14": {
+    "bonuses": [
+      "Worm Quantity Found",
+      "Whack Score Bonus"
+    ],
+    "name": "Cid",
+    "type": "Air"
+  },
+  "15": {
+    "bonuses": [
+      "Larva Quantity Found",
+      "Reincarnation Exp Earned"
+    ],
+    "name": "Tango",
+    "type": "Ground"
+  },
+  "16": {
+    "bonuses": [
+      "Larva Efficiency Bonus",
+      "Brewing Exp Earned"
+    ],
+    "name": "Darti",
+    "type": "Air"
+  },
+  "17": {
+    "bonuses": [
+      "Residue Created",
+      "Protein",
+      "Calcium Earned"
+    ],
+    "name": "Arizona",
+    "type": "Ground"
+  },
+  "18": {
+    "bonuses": [
+      "Fermenting Exp Earned",
+      "Worm Quantity Found"
+    ],
+    "name": "Suijin",
+    "type": "Air"
+  },
+  "19": {
+    "bonuses": [
+      "Larva Quantity Found",
+      "Larva Efficiency Bonus"
+    ],
+    "name": "Johny Be Good",
+    "type": "Ground"
+  },
+  "20": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Class Exp Earned",
+      "Skulls Earned"
+    ],
+    "name": "Nucifera",
+    "type": "Air"
+  },
+  "21": {
+    "bonuses": [
+      "Poop Created",
+      "Whack Score Bonus",
+      "Larva Quantity Found"
+    ],
+    "name": "Barney",
+    "type": "Ground"
+  },
+  "22": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Confection Exp Earned",
+      "Fermenting Exp Earned"
+    ],
+    "name": "Seth",
+    "type": "Air"
+  },
+  "23": {
+    "bonuses": [
+      "Skulls Earned",
+      "Residue Created",
+      "Calcium Earned"
+    ],
+    "name": "Plyne",
+    "type": "Ground"
+  },
+  "24": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Milk Created",
+      "Worm Quantity Found"
+    ],
+    "name": "Zac",
+    "type": "Air"
+  },
+  "25": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Class Exp Earned",
+      "Item Rating Bonus",
+      "Fermenting Exp Earned"
+    ],
+    "name": "Tock",
+    "type": "Ground"
+  },
+  "26": {
+    "bonuses": [
+      "Protein",
+      "Poop Created",
+      "Brewing Exp Earned",
+      "Larva Quantity Found"
+    ],
+    "name": "The Governess",
+    "type": "Air"
+  },
+  "27": {
+    "bonuses": [
+      "Skulls Earned",
+      "Reincarnation Exp Earned",
+      "Residue Created",
+      "Larva Efficiency Bonus"
+    ],
+    "name": "Swamp King",
+    "type": "Ground"
+  },
+  "28": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Confection Exp Earned",
+      "Whack Score Bonus",
+      "Worm Quantity Found"
+    ],
+    "name": "Itzamna",
+    "type": "Air"
+  },
+  "29": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Item Rating Bonus",
+      "Residue Created",
+      "Fermenting Exp Earned"
+    ],
+    "name": "Julian",
+    "type": "Ground"
+  },
+  "30": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Skulls Earned",
+      "Milk Created",
+      "Brewing Exp Earned"
+    ],
+    "name": "Yuhuang",
+    "type": "Air"
+  },
+  "31": {
+    "bonuses": [
+      "Whack Score Bonus",
+      "Larva Quantity Found"
+    ],
+    "name": "Serket",
+    "type": "Ground"
+  },
+  "32": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Potatoes Earned"
+    ],
+    "name": "Fujin",
+    "type": "Air"
+  },
+  "33": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Calcium Earned"
+    ],
+    "name": "Ulrich",
+    "type": "Ground"
+  },
+  "34": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Worm Quantity Found",
+      "Skulls Earned"
+    ],
+    "name": "Huginn",
+    "type": "Air"
+  },
+  "35": {
+    "bonuses": [
+      "Poop Created",
+      "Milk Created"
+    ],
+    "name": "Esus",
+    "type": "Ground"
+  },
+  "36": {
+    "bonuses": [
+      "Protein",
+      "Brewing Exp Earned",
+      "Larva Efficiency Bonus"
+    ],
+    "name": "Hera",
+    "type": "Air"
+  },
+  "37": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Larva Quantity Found"
+    ],
+    "name": "Asterios",
+    "type": "Ground"
+  },
+  "38": {
+    "bonuses": [
+      "Fermenting Exp Earned",
+      "Milk Created"
+    ],
+    "name": "Odile",
+    "type": "Air"
+  },
+  "39": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Brewing Exp Earned",
+      "Confection Exp Earned"
+    ],
+    "name": "Anubis",
+    "type": "Ground"
+  },
+  "40": {
+    "bonuses": [
+      "Residue Created",
+      "Worm Quantity Found",
+      "Whack Score Bonus"
+    ],
+    "name": "Garuda",
+    "type": "Air"
+  },
+  "41": {
+    "bonuses": [
+      "Poop Created",
+      "Calcium Earned",
+      "Potatoes Earned"
+    ],
+    "name": "Tsukuyomi",
+    "type": "Air"
+  },
+  "42": {
+    "bonuses": [
+      "Skulls Earned",
+      "Larva Quantity Found",
+      "Brewing Exp Earned"
+    ],
+    "name": "Nanbozo",
+    "type": "Ground"
+  },
+  "43": {
+    "bonuses": [
+      "Fermenting Exp Earned",
+      "Worm Quantity Found",
+      "Class Exp Earned"
+    ],
+    "name": "Ra",
+    "type": "Air"
+  },
+  "44": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Item Rating Bonus",
+      "Larva Efficiency Bonus"
+    ],
+    "name": "Vishnou",
+    "type": "Ground"
+  },
+  "45": {
+    "bonuses": [
+      "Healthy Potato",
+      "Milk Created",
+      "Confection Exp Earned",
+      "Whack Score Bonus"
+    ],
+    "name": "Icare",
+    "type": "Air"
+  },
+  "46": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Residue Created",
+      "Fermenting Exp Earned"
+    ],
+    "name": "Olaf",
+    "type": "Ground"
+  },
+  "47": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Larva Quantity Found",
+      "Calcium Earned"
+    ],
+    "name": "Fafnir",
+    "type": "Air"
+  },
+  "48": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Residue Created",
+      "Larva Efficiency Bonus"
+    ],
+    "name": "Quetzalcoalt",
+    "type": "Ground"
+  },
+  "49": {
+    "bonuses": [
+      "Calcium Earned",
+      "Brewing Exp Earned",
+      "Worm Quantity Found"
+    ],
+    "name": "Professor Inderwind",
+    "type": "Air"
+  },
+  "50": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Item Rating Bonus",
+      "Milk Created"
+    ],
+    "name": "Dangun",
+    "type": "Ground"
+  },
+  "51": {
+    "bonuses": [
+      "Fermenting Exp Earned",
+      "Calcium Earned",
+      "Larva Efficiency Bonus",
+      "Poop Created"
+    ],
+    "name": "Wako",
+    "type": "Ground"
+  },
+  "52": {
+    "bonuses": [
+      "Whack Score Bonus",
+      "Larva Quantity Found",
+      "Residue Created",
+      "Card Exp"
+    ],
+    "name": "Papyru",
+    "type": "Air"
+  },
+  "53": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Larva Efficiency Bonus",
+      "Calcium Earned",
+      "Worm Quantity Found"
+    ],
+    "name": "Sigma",
+    "type": "Ground"
+  },
+  "54": {
+    "bonuses": [
+      "Poop Created",
+      "Confection Exp Earned",
+      "Reincarnation Exp Earned",
+      "Card Power"
+    ],
+    "name": "Louna",
+    "type": "Air"
+  },
+  "55": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Milk Created",
+      "Fermenting Exp Earned",
+      "Residue Created"
+    ],
+    "name": "Babou",
+    "type": "Ground"
+  },
+  "56": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Skulls Earned",
+      "Card Exp",
+      "Card Power"
+    ],
+    "name": "Niord",
+    "type": "Air"
+  },
+  "57": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Class Exp Earned",
+      "Milk Created",
+      "Calcium Earned"
+    ],
+    "name": "Mous",
+    "type": "Ground"
+  },
+  "58": {
+    "bonuses": [
+      "Healthy Potato",
+      "Skulls Earned",
+      "Calcium Earned",
+      "Fermenting Exp Earned",
+      "Residue Created"
+    ],
+    "name": "Flafy",
+    "type": "Air"
+  },
+  "59": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Worm Quantity Found",
+      "Brewing Exp Earned",
+      "Fermenting Exp Earned",
+      "Card Power"
+    ],
+    "name": "Nick",
+    "type": "Ground"
+  },
+  "60": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Skulls Earned",
+      "Larva Quantity Found",
+      "Item Rating Bonus",
+      "Reincarnation Exp Earned"
+    ],
+    "name": "Cherry",
+    "type": "Air"
+  },
+  "61": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Skulls Earned",
+      "Confection Exp Earned",
+      "Fermenting Exp Earned"
+    ],
+    "name": "Abby",
+    "type": "Air"
+  },
+  "62": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Whack Score Bonus",
+      "Brewing Exp Earned",
+      "Reincarnation Exp Earned"
+    ],
+    "name": "Noop",
+    "type": "Ground"
+  },
+  "63": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Class Exp Earned",
+      "Poop Created",
+      "Whack Score Bonus",
+      "Brewing Exp Earned"
+    ],
+    "name": "Juba",
+    "type": "Ground"
+  },
+  "64": {
+    "bonuses": [
+      "Calcium Earned",
+      "Reincarnation Exp Earned",
+      "Residue Created",
+      "Card Exp"
+    ],
+    "name": "David",
+    "type": "Air"
+  },
+  "65": {
+    "bonuses": [
+      "Skulls Earned",
+      "Worm Quantity Found",
+      "Milk Created",
+      "Item Rating Bonus"
+    ],
+    "name": "Viktor",
+    "type": "Air"
+  },
+  "66": {
+    "bonuses": [
+      "Fermenting Exp Earned",
+      "Item Rating Bonus",
+      "Residue Created",
+      "Card Power"
+    ],
+    "name": "Darko",
+    "type": "Ground"
+  },
+  "67": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Poop Created",
+      "Worm Quantity Found",
+      "Larva Efficiency Bonus"
+    ],
+    "name": "Ubel",
+    "type": "Ground"
+  },
+  "68": {
+    "bonuses": [
+      "Skulls Earned",
+      "Whack Score Bonus",
+      "Larva Quantity Found",
+      "Card Exp"
+    ],
+    "name": "Than",
+    "type": "Air"
+  },
+  "69": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Poop Created",
+      "Larva Efficiency Bonus",
+      "Milk Created",
+      "Brewing Exp Earned"
+    ],
+    "name": "Hirma",
+    "type": "Air"
+  },
+  "70": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Residue Created",
+      "Fermenting Exp Earned",
+      "Card Exp",
+      "Card Power"
+    ],
+    "name": "Boletus",
+    "type": "Ground"
+  },
+  "71": {
+    "bonuses": [
+      "Healthy Potato",
+      "Skulls Earned"
+    ],
+    "name": "Froz",
+    "type": "Ground"
+  },
+  "72": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Confection Exp Earned"
+    ],
+    "name": "Beelzebub",
+    "type": "Air"
+  },
+  "73": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Healthy Potato",
+      "Skulls Earned"
+    ],
+    "name": "Nasr",
+    "type": "Air"
+  },
+  "74": {
+    "bonuses": [
+      "Healthy Potato",
+      "Protein",
+      "Potatoes Earned"
+    ],
+    "name": "Bump",
+    "type": "Ground"
+  },
+  "75": {
+    "bonuses": [
+      "Healthy Potato",
+      "Protein",
+      "Milk Created",
+      "Card Exp"
+    ],
+    "name": "Nyx",
+    "type": "Air"
+  },
+  "76": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Protein",
+      "Reincarnation Exp Earned",
+      "Card Power"
+    ],
+    "name": "Neith",
+    "type": "Ground"
+  },
+  "77": {
+    "bonuses": [
+      "Healthy Potato",
+      "Confection Exp Earned",
+      "Worm Quantity Found",
+      "Residue Created",
+      "Card Power"
+    ],
+    "name": "Leon",
+    "type": "Ground"
+  },
+  "78": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Calcium Earned",
+      "Fermenting Exp Earned",
+      "Item Rating Bonus",
+      "Card Exp"
+    ],
+    "name": "Puff",
+    "type": "Air"
+  },
+  "79": {
+    "bonuses": [
+      "Protein",
+      "Skulls Earned",
+      "Brewing Exp Earned",
+      "Reincarnation Exp Earned",
+      "Residue Created"
+    ],
+    "name": "Apollo",
+    "type": "Ground"
+  },
+  "80": {
+    "bonuses": [
+      "Healthy Potato",
+      "Poop Created",
+      "Item Rating Bonus",
+      "Residue Created",
+      "Card Exp"
+    ],
+    "name": "BigMouth",
+    "type": "Air"
+  },
+  "81": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Protein",
+      "Reincarnation Exp Earned",
+      "Card Exp",
+      "Card Power"
+    ],
+    "name": "Neptune",
+    "type": "Ground"
+  },
+  "82": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Class Exp Earned",
+      "Skulls Earned"
+    ],
+    "name": "Strawberry",
+    "type": "Ground"
+  },
+  "83": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Skulls Earned",
+      "Larva Quantity Found",
+      "Healthy Potato",
+      "Reincarnation Exp Earned"
+    ],
+    "name": "Jack Ballon",
+    "type": "Air"
+  },
+  "84": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Worm Quantity Found",
+      "Whack Score Bonus",
+      "Calcium Earned",
+      "Grasshopper Damage"
+    ],
+    "name": "Zack Canon",
+    "type": "Ground"
+  },
+  "85": {
+    "bonuses": [
+      "Milk Created",
+      "Brewing Exp Earned",
+      "Fermenting Exp Earned",
+      "Poop Created",
+      "Item Rating Bonus"
+    ],
+    "name": "Miss Spook",
+    "type": "Air"
+  },
+  "86": {
+    "bonuses": [
+      "Mining Exp",
+      "Protein",
+      "Residue Created",
+      "Card Exp",
+      "Larva Efficiency Bonus"
+    ],
+    "name": "Mister Spook",
+    "type": "Ground"
+  },
+  "87": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Skulls Earned",
+      "Brewing Exp Earned",
+      "Larva Quantity Found",
+      "Card Exp",
+      "Card Power"
+    ],
+    "name": "Touchy Cloud",
+    "type": "Air"
+  },
+  "88": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Whack Score Bonus",
+      "Reincarnation Exp Earned",
+      "Fermenting Exp Earned",
+      "Protein",
+      "Healthy Potato"
+    ],
+    "name": "Clover Worm",
+    "type": "Ground"
+  },
+  "89": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Milk Created",
+      "Residue Created",
+      "Larva Efficiency Bonus",
+      "Healthy Potato",
+      "Grasshopper Damage"
+    ],
+    "name": "Decoy Billy",
+    "type": "Ground"
+  },
+  "90": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Poop Created",
+      "Calcium Earned",
+      "Worm Quantity Found",
+      "Mining Exp",
+      "Card Power"
+    ],
+    "name": "Pandora Box",
+    "type": "Air"
+  },
+  "91": {
+    "bonuses": [
+      "Whack Score Bonus",
+      "Reincarnation Exp Earned",
+      "Larva Quantity Found",
+      "Fermenting Exp Earned",
+      "Grasshopper Damage",
+      "Protein"
+    ],
+    "name": "Super Leek",
+    "type": "Air"
+  },
+  "92": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Item Rating Bonus",
+      "Residue Created",
+      "Larva Efficiency Bonus",
+      "Mining Power",
+      "Card Exp"
+    ],
+    "name": "Mister Radish",
+    "type": "Ground"
+  },
+  "93": {
+    "bonuses": [
+      "Skulls Earned",
+      "Confection Exp Earned",
+      "Brewing Exp Earned",
+      "Milk Created",
+      "Healthy Potato",
+      "Card Power"
+    ],
+    "name": "Super Star",
+    "type": "Air"
+  },
+  "94": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Reincarnation Exp Earned",
+      "Mining Exp",
+      "Mining Power",
+      "Card Exp",
+      "Card Power"
+    ],
+    "name": "Star Flower",
+    "type": "Ground"
+  },
+  "95": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Skulls Earned",
+      "Whack Score Bonus",
+      "Card Exp",
+      "Healthy Potato"
+    ],
+    "name": "Drone Mk1",
+    "type": "Air"
+  },
+  "96": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Milk Created",
+      "Reincarnation Exp Earned",
+      "Mining Exp",
+      "Card Power"
+    ],
+    "name": "Worm Scout",
+    "type": "Ground"
+  },
+  "97": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Grasshopper Damage",
+      "Larva Efficiency Bonus",
+      "Card Exp",
+      "Mining Power",
+      "Protein"
+    ],
+    "name": "Thor",
+    "type": "Air"
+  },
+  "98": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Item Rating Bonus",
+      "Reincarnation Exp Earned",
+      "Residue Created",
+      "Card Power",
+      "Healthy Potato"
+    ],
+    "name": "Australian Emu",
+    "type": "Ground"
+  },
+  "99": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Class Exp Earned",
+      "Worm Quantity Found",
+      "Card Exp",
+      "Card Power",
+      "Calcium Earned"
+    ],
+    "name": "Disco Ball",
+    "type": "Air"
+  },
+  "100": {
+    "bonuses": [
+      "Skulls Earned",
+      "Confection Exp Earned",
+      "Fermenting Exp Earned",
+      "Item Rating Bonus",
+      "Healthy Potato",
+      "Protein"
+    ],
+    "name": "Cyber Dog",
+    "type": "Ground"
+  },
+  "101": {
+    "bonuses": [
+      "Poop Created",
+      "Brewing Exp Earned",
+      "Calcium Earned",
+      "Card Exp",
+      "Residue Created",
+      "Item Rating Bonus"
+    ],
+    "name": "Marty",
+    "type": "Air"
+  },
+  "102": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Milk Created",
+      "Larva Quantity Found",
+      "Fermenting Exp Earned",
+      "Healthy Potato",
+      "Protein"
+    ],
+    "name": "Brain Bot",
+    "type": "Ground"
+  },
+  "103": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Reincarnation Exp Earned",
+      "Mining Exp",
+      "Mining Power",
+      "Card Exp",
+      "Card Power"
+    ],
+    "name": "Hyperion",
+    "type": "Air"
+  },
+  "104": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Protein",
+      "Card Exp"
+    ],
+    "name": "Blue Bloon",
+    "type": "Air"
+  }
+}
