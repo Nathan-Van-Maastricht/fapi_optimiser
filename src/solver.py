@@ -76,14 +76,39 @@ class Model:
         self.solver.solve()
 
     def _solution_string(self):
+        pet_assignments = self.get_pet_id_used()
+
+        pet_string = "\n".join(
+            [f"{pet_id}: {self.pet_data[pet_id]['name']}" for pet_id in pet_assignments]
+        )
+
+        bonuses_used = self.get_bonuses_used()
+        bonus_string = "\n".join(bonuses_used)
+
+        total_bonus_string = f"Number of bonuses: {len(bonuses_used)}"
+
+        return "\n\n".join([pet_string, bonus_string, total_bonus_string])
+
+    def get_pet_id_used(self):
         pet_assignments = []
+
         for pet_id in self.pet_data.keys():
             value = int(self.solver.variableValue(self.pets[pet_id]))
 
             if value:
-                pet_assignments.append([pet_id, self.pet_data[pet_id]["name"]])
+                pet_assignments.append(pet_id)
 
-        return "\n".join([": ".join(assignment) for assignment in pet_assignments])
+        return pet_assignments
+
+    def get_bonuses_used(self):
+        pet_assignments = self.get_pet_id_used()
+
+        bonuses = set()
+
+        for pet_id in pet_assignments:
+            bonuses.update(self.pet_data[pet_id]["bonuses"])
+
+        return sorted(list(bonuses))
 
     def print_solution(self):
         print(self._solution_string())
@@ -107,4 +132,3 @@ if __name__ == "__main__":
     model.build_model()
     model.solve_model()
     model.print_solution()
-    print(f"Objective value: {model.get_objective_value()}")
