@@ -69,7 +69,13 @@ class Model:
             )
 
     def construct_objective(self):
-        self.solver.maximize(sum(self.bonuses.values()))
+        self.solver.maximize(
+            100 * sum(self.bonuses.values())
+            + sum(
+                len(self.pet_data[pet_id]["bonuses"]) * self.pets[pet_id]
+                for pet_id in self.pet_data.keys()
+            )
+        )
 
     def solve_model(self, relative_gap=0.007):
         self.solver.setOptionValue("min_rel_gap", relative_gap)
@@ -145,3 +151,4 @@ if __name__ == "__main__":
     model.build_model()
     model.solve_model()
     model.print_solution()
+    print(f"Objective value: {model.get_objective_value()}")
