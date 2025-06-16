@@ -70,8 +70,9 @@ class Model:
 
     def construct_objective(self):
         self.solver.maximize(
-            100 * sum(self.bonuses.values())
-            + sum(
+            10000 * sum(self.bonuses.values())
+            + 100
+            * sum(
                 len(self.pet_data[pet_id]["bonuses"]) * self.pets[pet_id]
                 for pet_id in self.pet_data.keys()
             )
@@ -106,7 +107,7 @@ class Model:
         pet_assignments = []
 
         for pet_id in self.pet_data.keys():
-            value = int(self.solver.variableValue(self.pets[pet_id]))
+            value = round(self.solver.variableValue(self.pets[pet_id]))
 
             if value:
                 pet_assignments.append(pet_id)
