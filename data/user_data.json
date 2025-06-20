@@ -271,6 +271,16 @@
     "name": "Julian",
     "type": "Ground"
   },
+  "30": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Skulls Earned",
+      "Milk Created",
+      "Brewing Exp Earned"
+    ],
+    "name": "Yuhuang",
+    "type": "Air"
+  },
   "31": {
     "bonuses": [
       "Whack Score Bonus",
@@ -516,6 +526,27 @@
     "location": "Apple Domain (E13R)",
     "name": "Noop",
     "type": "Ground"
+  },
+  "63": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Class Exp Earned",
+      "Poop Created",
+      "Whack Score Bonus",
+      "Brewing Exp Earned"
+    ],
+    "name": "Juba",
+    "type": "Ground"
+  },
+  "64": {
+    "bonuses": [
+      "Calcium Earned",
+      "Reincarnation Exp Earned",
+      "Residue Created",
+      "Card Exp"
+    ],
+    "name": "David",
+    "type": "Air"
   },
   "71": {
     "bonuses": [
