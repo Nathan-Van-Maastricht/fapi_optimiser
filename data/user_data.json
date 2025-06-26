@@ -495,6 +495,16 @@
     "name": "Papyru",
     "type": "Air"
   },
+  "55": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Milk Created",
+      "Fermenting Exp Earned",
+      "Residue Created"
+    ],
+    "name": "Babou",
+    "type": "Ground"
+  },
   "56": {
     "bonuses": [
       "Item Rating Bonus",
