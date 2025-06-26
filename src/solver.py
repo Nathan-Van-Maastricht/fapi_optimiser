@@ -22,6 +22,10 @@ class Model:
 
         self.bonuses = {bonus: self.solver.addBinary() for bonus in self.bonus_data}
 
+        self.bonus_count = {
+            bonus: self.solver.addIntegral() for bonus in self.bonus_data
+        }
+
     def construct_constraints(self):
         self.max_air()
         self.max_ground()
@@ -68,6 +72,15 @@ class Model:
                 )
             )
 
+            self.solver.addConstr(
+                self.bonus_count[bonus]
+                == sum(
+                    self.pets[pet_id]
+                    for pet_id in self.pet_data.keys()
+                    if bonus in self.pet_data[pet_id]["bonuses"]
+                )
+            )
+
     def construct_objective(self):
         self.solver.maximize(
             10000 * sum(self.bonuses.values())
@@ -76,6 +89,7 @@ class Model:
                 len(self.pet_data[pet_id]["bonuses"]) * self.pets[pet_id]
                 for pet_id in self.pet_data.keys()
             )
+            + sum(self.bonus_count.values())
         )
 
     def solve_model(self, relative_gap=0.007):
