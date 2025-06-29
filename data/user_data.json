@@ -558,6 +558,16 @@
     "name": "David",
     "type": "Air"
   },
+  "67": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Poop Created",
+      "Worm Quantity Found",
+      "Larva Efficiency Bonus"
+    ],
+    "name": "Ubel",
+    "type": "Ground"
+  },
   "71": {
     "bonuses": [
       "Healthy Potato",
