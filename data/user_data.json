@@ -515,6 +515,16 @@
     "name": "Niord",
     "type": "Air"
   },
+  "57": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Class Exp Earned",
+      "Milk Created",
+      "Calcium Earned"
+    ],
+    "name": "Mous",
+    "type": "Ground"
+  },
   "61": {
     "bonuses": [
       "Potatoes Earned",
@@ -556,6 +566,16 @@
       "Card Exp"
     ],
     "name": "David",
+    "type": "Air"
+  },
+  "65": {
+    "bonuses": [
+      "Skulls Earned",
+      "Worm Quantity Found",
+      "Milk Created",
+      "Item Rating Bonus"
+    ],
+    "name": "Viktor",
     "type": "Air"
   },
   "67": {
