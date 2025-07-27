@@ -525,6 +525,17 @@
     "name": "Mous",
     "type": "Ground"
   },
+  "58": {
+    "bonuses": [
+      "Healthy Potato",
+      "Skulls Earned",
+      "Calcium Earned",
+      "Fermenting Exp Earned",
+      "Residue Created"
+    ],
+    "name": "Flafy",
+    "type": "Air"
+  },
   "61": {
     "bonuses": [
       "Potatoes Earned",
@@ -615,5 +626,15 @@
     "location": "Banana Volcano (E11C)",
     "name": "Nasr",
     "type": "Air"
+  },
+  "76": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Protein",
+      "Reincarnation Exp Earned",
+      "Card Power"
+    ],
+    "name": "Neith",
+    "type": "Ground"
   }
 }
