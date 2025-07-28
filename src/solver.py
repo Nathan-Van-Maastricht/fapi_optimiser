@@ -104,7 +104,11 @@ class Model:
         )
 
         bonuses_used = ["Used:"]
-        bonuses_used.extend(self.get_bonuses_used())
+        used = self.get_bonuses_used()
+        for bonus in used:
+            bonuses_used.append(
+                f"{bonus}: {self.solver.variableValue(self.bonus_count[bonus]):.0f}"
+            )
         bonus_string = "\n".join(bonuses_used)
 
         total_bonus_string = f"Number of bonuses: {len(bonuses_used) - 1}"
