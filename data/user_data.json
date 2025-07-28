@@ -636,5 +636,16 @@
     ],
     "name": "Neith",
     "type": "Ground"
+  },
+  "83": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Skulls Earned",
+      "Larva Quantity Found",
+      "Healthy Potato",
+      "Reincarnation Exp Earned"
+    ],
+    "name": "Jack Ballon",
+    "type": "Air"
   }
 }
