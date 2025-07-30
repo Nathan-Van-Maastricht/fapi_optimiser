@@ -30,6 +30,7 @@ class Model:
         self.max_air()
         self.max_ground()
         self.pet_bonuses()
+        self.total_bonuses()
 
     def max_air(self):
         """
@@ -81,16 +82,27 @@ class Model:
                 )
             )
 
+    def total_bonuses(self):
+        self.solver.addConstr(sum(self.bonuses.values()) == 21)
+
     def construct_objective(self):
         self.solver.maximize(
-            10000 * sum(self.bonuses.values())
-            + 100
-            * sum(
-                len(self.pet_data[pet_id]["bonuses"]) * self.pets[pet_id]
-                for pet_id in self.pet_data.keys()
-            )
-            + sum(self.bonus_count.values())
+            self.bonus_count["Class Exp Earned"]
+            + self.bonus_count["Protein"]
+            + self.bonus_count["Residue Created"]
         )
+
+    # def construct_objective(self):
+    #     self.solver.maximize(
+    #         10000 * sum(self.bonuses.values())
+    #         + 100
+    #         * sum(
+    #             len(self.pet_data[pet_id]["bonuses"]) * self.pets[pet_id]
+    #             for pet_id in self.pet_data.keys()
+    #         )
+    #         + sum(self.bonus_count.values())
+    #         + 20 * self.bonus_count["Protein"]
+    #     )
 
     def solve_model(self, relative_gap=0.007):
         self.solver.setOptionValue("min_rel_gap", relative_gap)
