@@ -495,6 +495,16 @@
     "name": "Papyru",
     "type": "Air"
   },
+  "53": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Larva Efficiency Bonus",
+      "Calcium Earned",
+      "Worm Quantity Found"
+    ],
+    "name": "Sigma",
+    "type": "Ground"
+  },
   "55": {
     "bonuses": [
       "Potatoes Earned",
@@ -635,6 +645,17 @@
       "Card Power"
     ],
     "name": "Neith",
+    "type": "Ground"
+  },
+  "81": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Protein",
+      "Reincarnation Exp Earned",
+      "Card Exp",
+      "Card Power"
+    ],
+    "name": "Neptune",
     "type": "Ground"
   },
   "83": {
