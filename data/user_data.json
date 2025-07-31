@@ -637,6 +637,16 @@
     "name": "Nasr",
     "type": "Air"
   },
+  "75": {
+    "bonuses": [
+      "Healthy Potato",
+      "Protein",
+      "Milk Created",
+      "Card Exp"
+    ],
+    "name": "Nyx",
+    "type": "Air"
+  },
   "76": {
     "bonuses": [
       "Grasshopper Damage",
