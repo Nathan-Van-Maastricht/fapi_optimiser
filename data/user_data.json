@@ -637,6 +637,15 @@
     "name": "Nasr",
     "type": "Air"
   },
+  "74": {
+    "bonuses": [
+      "Healthy Potato",
+      "Protein",
+      "Potatoes Earned"
+    ],
+    "name": "Bump",
+    "type": "Ground"
+  },
   "75": {
     "bonuses": [
       "Healthy Potato",
@@ -656,6 +665,28 @@
     ],
     "name": "Neith",
     "type": "Ground"
+  },
+  "77": {
+    "bonuses": [
+      "Healthy Potato",
+      "Confection Exp Earned",
+      "Worm Quantity Found",
+      "Residue Created",
+      "Card Power"
+    ],
+    "name": "Leon",
+    "type": "Ground"
+  },
+  "78": {
+    "bonuses": [
+      "Grasshopper Damage",
+      "Calcium Earned",
+      "Fermenting Exp Earned",
+      "Item Rating Bonus",
+      "Card Exp"
+    ],
+    "name": "Puff",
+    "type": "Air"
   },
   "81": {
     "bonuses": [
@@ -677,6 +708,38 @@
       "Reincarnation Exp Earned"
     ],
     "name": "Jack Ballon",
+    "type": "Air"
+  },
+  "85": {
+    "bonuses": [
+      "Milk Created",
+      "Brewing Exp Earned",
+      "Fermenting Exp Earned",
+      "Poop Created",
+      "Item Rating Bonus"
+    ],
+    "name": "Miss Spook",
+    "type": "Air"
+  },
+  
+  "105": {
+    "bonuses": [
+      "Whack Score Bonus",
+      "Card Power",
+      "Protein",
+      "Subclass Exp"
+    ],
+    "name": "Cornicus",
+    "type": "Ground"
+  },
+  "106": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Fermenting Exp Earned",
+      "Mining Exp",
+      "Seed Chunks"
+    ],
+    "name": "Runic Water",
     "type": "Air"
   }
 }

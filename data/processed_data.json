@@ -1006,5 +1006,25 @@
     ],
     "name": "Blue Bloon",
     "type": "Air"
+  },
+  "105": {
+    "bonuses": [
+      "Whack Score Bonus",
+      "Card Power",
+      "Protein",
+      "Subclass Exp"
+    ],
+    "name": "Cornicus",
+    "type": "Ground"
+  },
+  "106": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Fermenting Exp Earned",
+      "Mining Exp",
+      "Seed Chunks"
+    ],
+    "name": "Runic Water",
+    "type": "Air"
   }
 }
