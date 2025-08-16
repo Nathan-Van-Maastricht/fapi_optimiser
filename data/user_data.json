@@ -721,7 +721,18 @@
     "name": "Miss Spook",
     "type": "Air"
   },
-  
+  "89": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Milk Created",
+      "Residue Created",
+      "Larva Efficiency Bonus",
+      "Healthy Potato",
+      "Grasshopper Damage"
+    ],
+    "name": "Decoy Billy",
+    "type": "Ground"
+  },
   "105": {
     "bonuses": [
       "Whack Score Bonus",
