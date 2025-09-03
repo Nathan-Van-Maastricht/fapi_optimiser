@@ -599,6 +599,16 @@
     "name": "Viktor",
     "type": "Air"
   },
+  "66": {
+    "bonuses": [
+      "Fermenting Exp Earned",
+      "Item Rating Bonus",
+      "Residue Created",
+      "Card Power"
+    ],
+    "name": "Darko",
+    "type": "Ground"
+  },
   "67": {
     "bonuses": [
       "Potatoes Earned",
@@ -608,6 +618,27 @@
     ],
     "name": "Ubel",
     "type": "Ground"
+  },
+  "68": {
+    "bonuses": [
+      "Skulls Earned",
+      "Whack Score Bonus",
+      "Larva Quantity Found",
+      "Card Exp"
+    ],
+    "name": "Than",
+    "type": "Air"
+  },
+  "69": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Poop Created",
+      "Larva Efficiency Bonus",
+      "Milk Created",
+      "Brewing Exp Earned"
+    ],
+    "name": "Hirma",
+    "type": "Air"
   },
   "71": {
     "bonuses": [
@@ -721,6 +752,17 @@
     "name": "Miss Spook",
     "type": "Air"
   },
+  "86": {
+    "bonuses": [
+      "Mining Exp",
+      "Protein",
+      "Residue Created",
+      "Card Exp",
+      "Larva Efficiency Bonus"
+    ],
+    "name": "Mister Spook",
+    "type": "Ground"
+  },
   "89": {
     "bonuses": [
       "Confection Exp Earned",
@@ -732,6 +774,30 @@
     ],
     "name": "Decoy Billy",
     "type": "Ground"
+  },
+  "91": {
+    "bonuses": [
+      "Whack Score Bonus",
+      "Reincarnation Exp Earned",
+      "Larva Quantity Found",
+      "Fermenting Exp Earned",
+      "Grasshopper Damage",
+      "Protein"
+    ],
+    "name": "Super Leek",
+    "type": "Air"
+  },
+  "99": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Class Exp Earned",
+      "Worm Quantity Found",
+      "Card Exp",
+      "Card Power",
+      "Calcium Earned"
+    ],
+    "name": "Disco Ball",
+    "type": "Air"
   },
   "105": {
     "bonuses": [
@@ -752,5 +818,39 @@
     ],
     "name": "Runic Water",
     "type": "Air"
+  },
+  "107": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Brewing Exp Earned",
+      "Residue Created",
+      "Larva Efficiency Bonus",
+      "Grasshopper Damage"
+    ],
+    "name": "Runic Air",
+    "type": "Air"
+  },
+  "108":{
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Calcium Earned",
+      "Protein",
+      "Mining Power",
+      "Renown Bonus",
+      "Seed Chunks"
+    ],
+    "name": "Straw Barrus",
+    "type": "Ground"
+  },
+  "109": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Calcium Earned",
+      "Larva Quantity Found",
+      "Card Exp",
+      "Healthy Potato"
+    ],
+    "name": "Stone Worm",
+    "type": "Ground"
   }
 }

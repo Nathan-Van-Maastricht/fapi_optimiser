@@ -1026,5 +1026,39 @@
     ],
     "name": "Runic Water",
     "type": "Air"
+  },
+  "107": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Brewing Exp Earned",
+      "Residue Created",
+      "Larva Efficiency Bonus",
+      "Grasshopper Damage"
+    ],
+    "name": "Runic Air",
+    "type": "Air"
+  },
+  "108":{
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Calcium Earned",
+      "Protein",
+      "Mining Power",
+      "Renown Bonus",
+      "Seed Chunks"
+    ],
+    "name": "Straw Barrus",
+    "type": "Ground"
+  },
+  "109": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Calcium Earned",
+      "Larva Quantity Found",
+      "Card Exp",
+      "Healthy Potato"
+    ],
+    "name": "Stone Worm",
+    "type": "Ground"
   }
 }
