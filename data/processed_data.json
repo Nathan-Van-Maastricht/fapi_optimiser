@@ -1060,5 +1060,26 @@
     ],
     "name": "Stone Worm",
     "type": "Ground"
+  },
+  "110": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Reincarnation Exp Earned",
+      "Larva Efficiency Bonus",
+      "Subclass Exp"
+    ],
+    "name": "Weapon Angelus",
+    "type": "Air"
+  },
+  "111": {
+    "bonuses": [
+      "Fermenting Exp Earned",
+      "Card Exp",
+      "Protein",
+      "Mining Exp",
+      "Renown Bonus"
+    ],
+    "name": "Runic Fire",
+    "type": "Air"
   }
 }
