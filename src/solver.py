@@ -83,13 +83,18 @@ class Model:
             )
 
     def total_bonuses(self):
-        self.solver.addConstr(sum(self.bonuses.values()) == 23)
+        self.solver.addConstr(sum(self.bonuses.values()) == 25)
+        self.solver.addConstr(self.bonus_count["Class Exp Earned"] == 2)
 
     def construct_objective(self):
         self.solver.maximize(
-            self.bonus_count["Class Exp Earned"]
-            + self.bonus_count["Protein"]
-            + self.bonus_count["Subclass Exp"]
+            # self.bonus_count["Class Exp Earned"]
+            # + self.bonus_count["Protein"]
+            # + self.bonus_count["Residue Created"]
+            # self.bonus_count["Subclass Exp"]
+            # + self.bonus_count["Confection Exp Earned"]
+            -100 * self.bonus_count["Potatoes Earned"]
+            - 100 * self.bonus_count["Whack Score Bonus"]
         )
 
     # def construct_objective(self):
