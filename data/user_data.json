@@ -505,6 +505,16 @@
     "name": "Sigma",
     "type": "Ground"
   },
+  "54": {
+    "bonuses": [
+      "Poop Created",
+      "Confection Exp Earned",
+      "Reincarnation Exp Earned",
+      "Card Power"
+    ],
+    "name": "Louna",
+    "type": "Air"
+  },
   "55": {
     "bonuses": [
       "Potatoes Earned",
@@ -545,6 +555,17 @@
     ],
     "name": "Flafy",
     "type": "Air"
+  },
+  "59": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Worm Quantity Found",
+      "Brewing Exp Earned",
+      "Fermenting Exp Earned",
+      "Card Power"
+    ],
+    "name": "Nick",
+    "type": "Ground"
   },
   "61": {
     "bonuses": [
@@ -741,6 +762,17 @@
     "name": "Jack Ballon",
     "type": "Air"
   },
+  "84": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Worm Quantity Found",
+      "Whack Score Bonus",
+      "Calcium Earned",
+      "Grasshopper Damage"
+    ],
+    "name": "Zack Canon",
+    "type": "Ground"
+  },
   "85": {
     "bonuses": [
       "Milk Created",
@@ -762,6 +794,18 @@
     ],
     "name": "Mister Spook",
     "type": "Ground"
+  },
+  "87": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Skulls Earned",
+      "Brewing Exp Earned",
+      "Larva Quantity Found",
+      "Card Exp",
+      "Card Power"
+    ],
+    "name": "Touchy Cloud",
+    "type": "Air"
   },
   "89": {
     "bonuses": [
@@ -797,6 +841,18 @@
       "Calcium Earned"
     ],
     "name": "Disco Ball",
+    "type": "Air"
+  },
+  "103": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Reincarnation Exp Earned",
+      "Mining Exp",
+      "Mining Power",
+      "Card Exp",
+      "Card Power"
+    ],
+    "name": "Hyperion",
     "type": "Air"
   },
   "105": {
