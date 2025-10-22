@@ -1081,5 +1081,36 @@
     ],
     "name": "Runic Fire",
     "type": "Air"
+  },
+  "112": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Larva Quantity Found",
+      "Card Power"
+    ],
+    "name": "Palana",
+    "type": "Ground"
+  },
+  "113": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Milk Created",
+      "Larva Efficiency Bonus",
+      "Subclass Exp"
+    ],
+    "name": "Dionysus",
+    "type": "Ground"
+  },
+  "114": {
+    "bonuses": [
+      "Whack Score Bonus",
+      "Brewing Exp Earned",
+      "Residue Created",
+      "Larva Efficiency Bonus",
+      "Card Power",
+      "Seed Chunks"
+    ],
+    "name": "Rasperus",
+    "type": "Ground"
   }
 }
