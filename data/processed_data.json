@@ -1112,5 +1112,148 @@
     ],
     "name": "Rasperus",
     "type": "Ground"
+  },
+  "115": {
+    "bonuses": [
+      "Milk Created",
+      "Healthy Potato",
+      "Mining Power",
+      "Renown Bonus",
+      "Subclass Exp"
+    ],
+    "name": "Pearus",
+    "type": "Ground"
+  },
+  "116": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Fermenting Exp Earned",
+      "Card Exp",
+      "Healthy Potato",
+      "Renown Bonus"
+    ],
+    "name": "Land Mine",
+    "type": "Ground"
+  },
+  "117": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Reincarnation Exp Earned",
+      "Whack Score Bonus",
+      "Fermenting Exp Earned",
+      "Healthy Potato",
+      "Protein"
+    ],
+    "name": "Clover Worm",
+    "type": "Ground"
+  },
+  "118":{
+    "bonuses": [
+      "Potatoes Earned",
+      "Item Rating Bonus",
+      "Residue Created",
+      "Larva Efficiency Bonus",
+      "Card Exp",
+      "Mining Power"
+    ],
+    "name": "Mister Radish",
+    "type": "Ground"
+  },
+  "119": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Fermenting Exp Earned",
+      "Residue Created",
+      "Card Power",
+      "Card Exp"
+    ],
+    "name": "Boletus",
+    "type": "Ground"
+  },
+  "120": {
+    "bonuses": [
+      "Milk Created",
+      "Card Exp",
+      "Grasshopper Damage",
+      "Mining Exp",
+      "Seed Chunks"
+    ],
+    "name": "Air Angelus",
+    "type": "Air"
+  },
+  "121": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Brewing Exp Earned",
+      "Calcium Earned",
+      "Residue Created",
+      "Card Power",
+      "Mining Power",
+      "Subclass Exp"
+    ],
+    "name": "Runic Bramble",
+    "type": "Air"
+  },
+  "122": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Subclass Exp",
+      "Seed Chunks"
+    ],
+    "name": "Water Worm",
+    "type": "Ground"
+  },
+  "123": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Fermenting Exp Earned",
+      "Residue Created",
+      "Healthy Potato",
+      "Grasshopper Damage",
+      "Seed Chunks"
+    ],
+    "name": "Radus",
+    "type": "Ground"
+  },
+  "124": {
+    "bonuses": [
+      "Residue Created",
+      "Card Power",
+      "Mining Exp",
+      "Seed Chunks"
+    ],
+    "name": "Breach Opener",
+    "type": "Ground"
+  },
+  "125": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Reincarnation Exp Earned",
+      "Larva Quantity Found",
+      "Renown Bonus"
+    ],
+    "name": "Baba",
+    "type": "Ground"
+  },
+  "126": {
+    "bonuses": [
+      "Brewing Exp Earned",
+      "Larva Efficiency Bonus",
+      "Card Power"
+    ],
+    "name": "Samovar",
+    "type": "Ground"
+  },
+  "127": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Whack Score Bonus",
+      "Residue Created",
+      "Healthy Potato",
+      "Protein",
+      "Mining Exp"
+    ],
+    "name": "Chip",
+    "type": "Air"
   }
 }
