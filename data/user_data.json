@@ -1104,5 +1104,27 @@
     ],
     "name": "Chip",
     "type": "Air"
+  },
+  "128": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Skulls Earned",
+      "Reincarnation Exp Earned",
+      "Item Rating Bonus",
+      "Larva Quantity Found"
+    ],
+    "name": "Cherry",
+    "type": "Air"
+  },
+  "129": {
+    "bonuses": [
+      "Potatoes Earned",
+      "Skulls Earned",
+      "Whack Score Bonus",
+      "Card Exp",
+      "Healthy Potato"
+    ],
+    "name": "Drone Mk1",
+    "type": "Air"
   }
 }
