@@ -1277,5 +1277,127 @@
     ],
     "name": "Drone Mk1",
     "type": "Air"
+  },
+  "130": {
+    "bonuses": [
+      "Class Exp Earned",
+      "Reincarnation Exp Earned",
+      "Milk Created",
+      "Card Power",
+      "Mining Exp"
+    ],
+    "name": "Worm Scout",
+    "type": "Ground"
+  },
+  "131": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Poop Created",
+      "Brewing Exp Earned",
+      "Calcium Earned",
+      "Residue Created",
+      "Card Exp"
+    ],
+    "name": "Marty",
+    "type": "Air"
+  },
+  "132": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Calcium Earned",
+      "Protein",
+      "Grasshopper Damage",
+      "Mining Power"
+    ],
+    "name": "Khamul",
+    "type": "Air"
+  },
+  "133": {
+    "bonuses": [
+      "Skulls Earned",
+      "Confection Exp Earned",
+      "Milk Created",
+      "Brewing Exp Earned",
+      "Card Power",
+      "Healthy Potato"
+    ],
+    "name": "Super Star",
+    "type": "Air"
+  },
+  "134": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Item Rating Bonus",
+      "Fermenting Exp Earned",
+      "Grasshopper Damage",
+      "Subclass Exp",
+      "Seed Chunks"
+    ],
+    "name": "Persephone",
+    "type": "Air"
+  },
+  "135": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Milk Created",
+      "Renown Bonus"
+    ],
+    "name": "Exocet",
+    "type": "Air"
+  },
+  "136": {
+    "bonuses": [
+      "Calcium Earned",
+      "Residue Created",
+      "Card Power",
+      "Healthy Potato"
+    ],
+    "name": "Licker",
+    "type": "Ground"
+  },
+  "137": {
+    "bonuses": [
+      "Item Rating Bonus",
+      "Whack Score Bonus",
+      "Mining Power",
+      "Seed Chunks"
+    ],
+    "name": "Grognak",
+    "type": "Ground"
+  },
+  "138": {
+    "bonuses": [
+      "Brewing Exp Earned",
+      "Card Exp",
+      "Healthy Potato",
+      "Subclass Exp",
+      "Seed Chunks"
+    ],
+    "name": "Bargnak",
+    "type": "Air"
+  },
+  "139": {
+    "bonuses": [
+      "Confection Exp Earned",
+      "Reincarnation Exp Earned",
+      "Brewing Exp Earned",
+      "Larva Efficiency Bonus",
+      "Mining Exp",
+      "Mining Power"
+    ],
+    "name": "Bobo",
+    "type": "Air"
+  },
+  "140": {
+    "bonuses": [
+      "Reincarnation Exp Earned",
+      "Item Rating Bonus",
+      "Card Power",
+      "Card Exp",
+      "Mining Exp",
+      "Mining Power"
+    ],
+    "name": "Star Flower",
+    "type": "Ground"
   }
 }
